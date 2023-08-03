@@ -1,5 +1,4 @@
-ECDSA（Elliptic Curve Digital Signature Algorithm）
-=
+#ECDSA（Elliptic Curve Digital Signature Algorithm）
 
 椭圆曲线数字签名算法（ECDSA）是使用椭圆曲线密码（ECC）对数字签名算法（DSA）的模拟。ECDSA于1999年成为ANSI标准，并于2000年成为IEEE和NIST标准。
 与普通的离散对数问题（discrete logarithm problem DLP）和大数分解问题（integer factorization problem IFP）不同，椭圆曲线离散对数问题（elliptic curve discrete logarithm problem ECDLP）没有亚指数时间的解决方法。因此椭圆曲线密码的单位比特强度要高于其他公钥体制。
@@ -22,8 +21,8 @@ ECDSA（Elliptic Curve Digital Signature Algorithm）
 
 
 
-ECDSA是以太坊（Ethereum）中广泛应用的密码学算法，它在以下几个方面发挥了重要作用：
-==
+##ECDSA是以太坊（Ethereum）中广泛应用的密码学算法，它在以下几个方面发挥了重要作用：
+
 **地址生成和身份验证：**
 
 在以太坊中，每个参与者（如用户、智能合约）都有一个唯一的地址，用于标识其身份。这些地址是通过ECDSA算法生成的。具体地，通过通过私钥对特定的椭圆曲线上的点进行签名，然后从签名中提取公钥，最后从公钥中生成以太坊地址。这种方式保证了地址的唯一性和防伪性，并确保只有拥有相应私钥的参与者能够对其地址进行操作。
