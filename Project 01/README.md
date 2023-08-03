@@ -7,7 +7,7 @@ Birthday attack
 
 测试实验结果如下图所示：
 
-![image]([https://github.com/yxh1120/project/blob/main/Project%201/1.png](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2001/1.png)https://github.com/yxh1120/Homework-group-41/blob/main/Project%2001/1.png)
+![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2001/1.png)
 
 运行速度：
 测试找到前4bit的碰撞约需要0.5秒。
