@@ -14,6 +14,16 @@
  这种批量处理技术尤其在密码学协议和区块链系统中具有潜在的应用，因为它可以显著提高系统的性能和可扩展性。  
  ![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2021/3.png)
 
+**Schnorr签名算法细节**  
+公私钥产生算法（KeyGen）  
+ ![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2021/5.png)
+ 
+签名生成算法（Sign）  
+ ![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2021/6.png)
+ 
+签名验证算法（Verify）  
+ ![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2021/7.png)
+
  **关键代码实现：**  
  在实现原本的Schnorr签名方案的签名（Sign）函数和验证（Verify）函数基础上，通过将多个签名的计算合并为一个集合，批量进行处理，提高了效率  
  ![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2021/4.png)
