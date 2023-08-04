@@ -20,7 +20,7 @@ forge a signature
 **关键代码实现：**  
 ![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2019/2.png)
 
-运行结果如图：
+运行结果如图：  
 ![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2019/1.png)
 
 运行速度：  伪造一次签名并验证成功约需要0.02秒
