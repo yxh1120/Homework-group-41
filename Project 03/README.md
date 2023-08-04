@@ -1,7 +1,7 @@
 length extension attack
 =
 
-![image]()
+![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2003/3.png)
 
 **实验简介：**  
 首先利用Python实现了简化的sm3算法，通过对随机生成的固定长度的字符串进行sm3加密，然后进行length extension攻击，通过对比扩展前和扩展后的hash值，可验证length extension attack是否成功。
@@ -22,10 +22,10 @@ length extension attack
 此外，还可以使用HMAC（带有密钥的哈希函数）来增强哈希函数的安全性。
 
 关键代码实现如下：  
-![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2002/2.png)
+![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2003/2.png)
 
 测试结果如图所示：  
-![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2002/1.png)
+![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2003/1.png)
 
 运行速度：  
 可在毫秒级时间内完成对消息的length extension攻击。
