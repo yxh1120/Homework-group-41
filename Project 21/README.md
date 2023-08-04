@@ -15,6 +15,7 @@
  ![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2021/3.png)
 
  **关键代码实现：**  
+ 在实现原本的Schnorr签名方案的签名（Sign）函数和验证（Verify）函数基础上，通过将多个签名的计算合并为一个集合，批量进行处理，提高了效率
  ![image](https://github.com/yxh1120/Homework-group-41/blob/main/Project%2021/4.png)
 
  运行结果如图：  
